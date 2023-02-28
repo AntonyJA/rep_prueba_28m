@@ -10,3 +10,31 @@ body{
 h1{
     text-align: center;
 }
+header{
+    background-color: #395B64;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 972px;
+    margin: 0 auto;
+}
+
+ol{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color:#E7F6F2;
+    cursor: pointer;
+}
+
+a:hover{
+    color:#A5C9CA;
+}
